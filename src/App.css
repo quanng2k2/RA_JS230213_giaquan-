@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aaa;
+}
+
+h1 {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  padding: 20px;
+}
+
+.headerProduct {
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 99999; 
+}
+
+.container {
+  margin-top: 80px;
+  /* display: grid;
+  grid-template-columns: repeat(4 , 1fr);  */
+  height: 1000px;
+  overflow-x: scroll;
+  top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+/* Tùy chỉnh thanh trượt */
+::-webkit-scrollbar {
+  width: 10px; /* Chiều rộng thanh trượt */
+}
+
+/* Tùy chỉnh thanh trượt khi hover */
+::-webkit-scrollbar:hover {
+  background-color: #ddd; /* Màu nền khi hover */
+}
+
+/* Tùy chỉnh thanh trượt thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* Màu nền của thumb */
+  border-radius: 10px; /* Độ cong cạnh của thumb */
+}
+
+/* Tùy chỉnh thumb khi hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* Màu nền của thumb khi hover */
+}
+
+.card {
+  margin: 20px 20px ;
+  width: 120px;
+  height: 400px;
+  background-color: rgb(26, 20, 23);
+  color: aliceblue;
+}
+
+.card-img-top {
+  overflow: hidden;
+  height: 250px;
+}
+
+.flexNamePrice {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.flexButtonPro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonProduct {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#buttonAdd {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+#buttonInterest {
+  border-radius: 10px;
+}
+
+.footerProduct {
+  background-color: rgb(232, 223, 211); 
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;  
+}
+
+h2 {
+  color: rgb(213, 69, 69);
+}
+
+.cartMoney {
+  margin: 20px 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.totalCart {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.buttonFooter {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.textCart {
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+
+.priceCart {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.totalSum {
+  color: rgb(213, 69, 69);
+}
